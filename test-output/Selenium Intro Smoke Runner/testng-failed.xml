@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium Intro Smoke Runner]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNG Runner(failed)">
+    <parameter name="password" value="sentrifugo"/>
+    <parameter name="userName" value="EM01"/>
+    <classes>
+      <class name="Tests.com.Sentifigo.LoginTest">
+        <methods>
+          <include name="pageSetUp"/>
+          <include name="setUp"/>
+          <include name="loginTest1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Tests.com.Sentifigo.LoginTest -->
+    </classes>
+  </test> <!-- TestNG Runner(failed) -->
+</suite> <!-- Failed suite [Selenium Intro Smoke Runner] -->

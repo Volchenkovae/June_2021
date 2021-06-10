@@ -1,0 +1,10 @@
+<suite name = "TestNG practice">
+    <test name = "Parameter Annotation">
+        <parameter name="name" value = "Techtorial"></parameter>
+        <parameter name="lastName" value="Academy"></parameter>
+        <parameter name = "driverName" value = "chrome"></parameter>
+        <classes>
+            <class name = "JSExecutor.JSIntro"></class>
+        </classes>
+    </test>
+</suite>

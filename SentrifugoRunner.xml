@@ -1,0 +1,28 @@
+<suite name = "Sentrifugo Regression Runner" parallel="tests" thread-count="3">
+    <test name = "Merital Status Tests1" >
+        <parameter name="userName" value="EM01"></parameter>
+        <parameter name="password" value="sentrifugo"></parameter>
+        <parameter name = "driverName" value = "chrome"></parameter>
+        <classes>
+            <class name = "Tests.com.Sentifigo.MeritalStatusTest" >
+                <methods>
+                    <include name = "validationErrorMessage"></include>
+                    <include name="validationMaritalStatusCreation"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "Merital Status Tests2" >
+        <parameter name="userName" value="EM01"></parameter>
+        <parameter name="password" value="sentrifugo"></parameter>
+        <parameter name = "driverName" value = "firefox"></parameter>
+        <classes>
+            <class name = "Tests.com.Sentifigo.MeritalStatusTest" >
+                <methods>
+                    <include name = "validationErrorMessage"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

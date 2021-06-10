@@ -1,0 +1,13 @@
+<suite name = "Window Practice Regression Runner">
+    <test name = "TestNG Runner2">
+        <classes>
+            <class name = "IframePractice.IframeIntro"></class>
+            <methods>
+                <include name = "test2"></include>
+                <include name = "test3"></include>
+                <exclude name = "test1"></exclude>
+            </methods>
+            <class name = "WindowPractice.WindowsPractice"></class>
+        </classes>
+    </test>
+</suite>
